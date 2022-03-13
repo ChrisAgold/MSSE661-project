@@ -15,18 +15,36 @@
     distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
     placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
 </p>
-<a href="http://google.com">Click Here</a>
 
 <!--******JS******-->
 <script>
-    var header = document.body.children[0];
-    var paragraph = document.body.children[1];
-    var link = document.body.children[2];
-    console.log(paragraph);
-    console.log(header);
-    console.log(link);
-    paragraph.append('More text');
-    link.href = "http://example.com";
+    String("Hello World")
+    var string = "Hello World!";
+    Number("10");
+    var number = 10;
+
+    Array([1, 2, 3, 4, 5]);
+    var array = [1, 2, 3, 4, 5];
+
+    // Iterate over each element in array
+    for (var index = 0; index < array.length; index++) {
+        const element = array[index];
+        console.log(element);
+    }
+
+    // Get index of element in array
+for (var index in array) {
+    const element = array[index];
+    console.log(index);
+}
+
+var index = 0;
+while(index < array.length) {
+    const element = array[index];
+    console.log(element);
+    index++;
+}
+
 </script>
 </body>
 </html>
