@@ -9,13 +9,24 @@
 </head>
 <body>
 <h1>Hello World!</h1>
-<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
+<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque
+    corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa
+    qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita
+    distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+    placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.
 </p>
+<a href="http://google.com">Click Here</a>
 
-
+<!--******JS******-->
 <script>
+    var header = document.body.children[0];
     var paragraph = document.body.children[1];
+    var link = document.body.children[2];
     console.log(paragraph);
+    console.log(header);
+    console.log(link);
+    paragraph.append('More text');
+    link.href = "http://example.com";
 </script>
 </body>
 </html>
