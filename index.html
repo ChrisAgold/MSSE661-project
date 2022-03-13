@@ -29,22 +29,53 @@
     // Iterate over each element in array
     for (var index = 0; index < array.length; index++) {
         const element = array[index];
-        console.log(element);
+        // console.log(element);
     }
 
     // Get index of element in array
-for (var index in array) {
-    const element = array[index];
-    console.log(index);
-}
+    for (var index in array) {
+        const element = array[index];
+        // console.log(index);
+    }
 
-var index = 0;
-while(index < array.length) {
-    const element = array[index];
-    console.log(element);
-    index++;
-}
+    var index = 0;
+    while (index < array.length) {
+        const element = array[index];
+        // console.log(element);
+        index++;
+    }
 
+    var strings = ['hello', 'world', 'Mittens'];
+    var newStatement = strings.join(' ');
+    // console.log(newStatement);
+
+    var object = {
+        thing: "Bag of stuff",
+        stuff: ["Bag one", "Bag two"],
+    };
+
+    // Function(a, b, c, d)
+
+    function sum(a, b) {
+        return a + b;
+    }
+
+    console.log(sum(1, 2));
+
+    var person = {
+        name: "Mittens",
+        age: "26",
+        likes: ["ice-cream", "salsa dancing"],
+        // anonymous function
+        doMath: function () {
+            return "Mittens likes math!";
+        }
+    };
+    // console.log(person.age);
+    // console.log(person.doMath);
+    // console.log(person.doMath());
+    var doMath = person.doMath;
+    // console.log(doMath());
 </script>
 </body>
 </html>
