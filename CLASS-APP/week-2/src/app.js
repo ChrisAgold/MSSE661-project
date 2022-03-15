@@ -26,16 +26,22 @@ class Person {
     }
 
     getLegalAge() {
+        if (this.age > 21) {
+            return 1;
+        }
+        return -1;
 }
+
 }
+
 
 console.log(new Person('Mittens', 50))
 
-function getLegalAge(Person) {
-    if (this.age > 21) {
-        return 1;
-    }
-    return -1;
-}
+// function getLegalAge(Person) {
+//     if (this.age > 21) {
+//         return 1;
+//     }
+//     return -1;
+// }
 
-console.log(getLegalAge(new Person("Cat", 25)))
+// console.log(getLegalAge(new Person("Cat", 25)))

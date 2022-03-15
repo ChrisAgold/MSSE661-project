@@ -43,6 +43,29 @@ ul, li {
     margin-top: 50px;
 }
 
+.login-container {
+    width: 20%;
+    background-color: lightgray;
+    margin: 50px;
+    padding: 50px;
+}
+
+.username-input {
+    padding: 5px;
+}
+
+.password-input {
+    padding: 5px;
+}
+
+#username {
+    padding: 5px;
+}
+
+#password {
+    padding: 5px;
+}
+
 .login {
     display: flex;
     flex-direction: column;
