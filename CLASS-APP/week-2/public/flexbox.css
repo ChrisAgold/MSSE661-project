@@ -4,7 +4,7 @@
 }
 
 .main {
-    display: flex;
+    /*display: flex;*/
     width: 100%;
 }
 
@@ -16,17 +16,18 @@ header {
 
 nav {
     display: flex;
+    padding-top: 12px;
 }
 
 nav ul {
     display: flex;
-    width: 10px;
+    width: 200px;
     margin: 0 auto;
     justify-content: center;
 }
 
 li {
-    float: left;
+    width: 50px;
     padding: 0 10px;
 }
 
