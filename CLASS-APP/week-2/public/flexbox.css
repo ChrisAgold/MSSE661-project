@@ -3,18 +3,26 @@
     padding: 0;
 }
 
-header {
-    height: 50px;
+.main {
+    display: flex;
     width: 100%;
 }
 
+header {
+    height: 50px;
+    width: 100%;
+    background-color: lightgray;
+}
+
 nav {
-    display: block;
+    display: flex;
 }
 
 nav ul {
+    display: flex;
     width: 10px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 li {
@@ -26,9 +34,17 @@ ul, li {
     list-style: none;
 }
 
-.main {
+.content {
     min-height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
