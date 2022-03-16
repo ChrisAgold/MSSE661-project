@@ -31,11 +31,10 @@ class Person {
         }
         return -1;
 }
-
 }
 
-
-console.log(new Person('Mittens', 50))
+const person = new Person('Mittens', 2);
+console.log(person.getLegalAge());
 
 // function getLegalAge(Person) {
 //     if (this.age > 21) {
