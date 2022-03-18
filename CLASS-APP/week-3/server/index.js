@@ -15,6 +15,6 @@ app.listen(3000, function() {
 });
 
 // RUN node server/index.js IN TERMINAL
-
-
-
+// mysqld TO START MYSQL
+// lsof -i:3306 SEE IF RUNNING
+// kill -9 (NUMBER AFTER MYSQLD)
