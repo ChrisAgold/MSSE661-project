@@ -1,9 +1,9 @@
 idea/*
-*.iml
-.DS_STORE
-keys.js
-node_modules/*
-node_modules
-node_modules/
-**/node_modules
-**/package-lock.json
+ *.iml
+ .DS_STORE
+ keys.js
+ node_modules/*
+ node_modules
+ node_modules/
+ **/node_modules
+ **/package-lock.json
