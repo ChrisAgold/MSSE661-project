@@ -3,37 +3,34 @@
     padding: 0;
 }
 
-header {
-    height: 50px;
-    width: 100%;
-}
-
-nav {
-    display: block;
-}
-
-nav ul {
-    width: 10px;
-    margin: 0 auto;
-}
-
-li {
-    float: left;
-    padding: 0 10px;
-}
-
-ul, li {
-    list-style: none;
-}
-
 .main {
     min-height: 100%;
     width: 100%;
 }
 
-footer {
-    height: 100px;
+header {
+    height: 50px;
     width: 100%;
+    background-color: lightgrey;
+}
+
+li {
+    padding: 0 10px;
+    width: 50px;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+footer {
     position: absolute;
     bottom: 0;
+    height: 100px;
+    width: 100%;
 }

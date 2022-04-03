@@ -3,36 +3,16 @@
     padding: 0;
 }
 
-.main {
-    /*display: flex;*/
-    width: 100%;
-}
-
-header {
-    height: 50px;
-    width: 100%;
-    background-color: lightgray;
-}
-
 nav {
     display: flex;
     padding-top: 12px;
 }
 
 nav ul {
-    display: flex;
     width: 200px;
     margin: 0 auto;
+    display: flex;
     justify-content: center;
-}
-
-li {
-    width: 50px;
-    padding: 0 10px;
-}
-
-ul, li {
-    list-style: none;
 }
 
 .content {
@@ -43,37 +23,51 @@ ul, li {
     margin-top: 50px;
 }
 
-.login-container {
-    width: 20%;
-    background-color: lightgray;
-    margin: 50px;
-    padding: 50px;
-}
-
-.username-input {
-    padding: 5px;
-}
-
-.password-input {
-    padding: 5px;
-}
-
-#username {
-    padding: 5px;
-}
-
-#password {
-    padding: 5px;
-}
-
-.login {
+.center {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #d3d3d3;
+}
+
+.center form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+label {
+    padding-bottom: 20px;
+    width: 80%;
+}
+
+label > span {
+    display: none;
+}
+
+input {
+    height: 20px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    background-color: #256fde;
+    color: white;
+    margin-bottom: 10px;
 }
 
 footer {
-    height: 100px;
-    width: 100%;
     position: absolute;
     bottom: 0;
+    height: 100px;
+    width: 100%;
 }

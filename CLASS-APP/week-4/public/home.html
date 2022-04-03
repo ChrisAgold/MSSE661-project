@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/flexbox.css" />
-    <title>Login</title>
+    <title>Home</title>
 </head>
 <body>
 <div class="main wrapper">
@@ -15,23 +15,13 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="./about.html">About</a></li>
             </ul>
+            <a href="" onclick="doLogout(event)">Logout</a>
         </nav>
     </header>
+
     <div class="content">
         <div class="center">
-            <h2>Login</h2>
-            <form novalidate>
-                <label for="username">
-                    <span>Username:</span>
-                    <input id="username" type="text" placeholder="Username" />
-                </label>
-                <label for="password">
-                    <span>Password:</span>
-                    <input id="password" type="password" placeholder="Password" />
-                </label>
-                <button onclick="doLogin(event)">Submit</button>
-                <a href="./register.html">Register</a>
-            </form>
+            <h2>Some stuff about a site.</h2>
         </div>
     </div>
 
@@ -45,7 +35,4 @@
     </footer>
 </div>
 </body>
-<script src="./src/service-helpers.js"></script>
-<script src="./src/auth.service.js"></script>
-<script src="./src/app.js"></script>
 </html>

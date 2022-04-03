@@ -1,26 +1,33 @@
-// OBJECTS
-var object = {
-    name: 'Mittens',
-    age: 50
+const doLogin = function(e) {
+    e.preventDefault();
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    login({
+        username: username,
+        password: password
+    }).then(function(res) {
+        window.location.href = 'home.html';
+    });
 };
 
-class Person {
-    name;
-    age;
+const doRegister = function(e) {
+    e.preventDefault();
+    const username = document.getElementById('username').value;
+    const email = document.getElementById('email').value;
+    const password = document.getElementById('password').value;
 
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-    }
+    register({
+        username: username,
+        email: email,
+        password: password
+    }).then(function(res) {
+        window.location.href = 'home.html';
+    });
+};
 
-    getLegalAge() {
-        if (this.age > 21) {
-            return 1;
-        }
-        return -1;
-    }
-}
+const doLogout = function(e) {
+    e.preventDefault();
+};
 
-const person = new Person('Mittens', 2);
-// console.log(person.getLegalAge());
 
