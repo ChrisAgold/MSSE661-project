@@ -11,7 +11,7 @@ app.use('/js', express.static(__dirname + '/public/src')); // http://localhost:3
 app.listen(port, function() {
     console.log('Server started at http://localhost:%s', port);
 });
-// RUN node server/index.js IN TERMINAL
+// RUN node server/index.html IN TERMINAL
 // mysqld TO START MYSQL
 // lsof -i:3306 SEE IF RUNNING
 // kill -9 (NUMBER AFTER MYSQLD)

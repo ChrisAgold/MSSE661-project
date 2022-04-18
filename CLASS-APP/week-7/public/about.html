@@ -11,7 +11,7 @@
             integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
             crossorigin="anonymous"
     />
-    <title>Welcome!</title>
+    <title>About</title>
 </head>
 <body>
 <header>
@@ -26,19 +26,19 @@
             </li>
         </ul>
         <a id="login" href="/login.html">Sign In</a>
+        <a id="logout" href="" onclick="doLogout(event)">Logout</a>
     </nav>
 </header>
 
-<div class="container-fluid">
+<div class="content">
     <div class="center">
-        <h2>Welcome to a really basic app!</h2>
+        <h2>Some stuff about a site.</h2>
     </div>
 </div>
-
-<footer>
-    <div class="author">
-        <p>Author: <a href="https://github.com/chan1ks">Morgan Worrell</a></p>
-    </div>
-</footer>
+<script src="./lib/api.config.js"></script>
+<script src="./lib/simple-storage.js"></script>
+<script src="./lib/service-helpers.js"></script>
+<script src="./lib/auth.service.js"></script>
+<script src="./lib/auth.js"></script>
 </body>
 </html>
