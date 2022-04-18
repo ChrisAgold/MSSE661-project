@@ -17,10 +17,10 @@
 // This is an IIFE (Immediately Invoked Function Expression).
 // What it does is in the name.
 (async () => {
-    const tasks = await getTasks();
-    console.log(tasks);
+    const jobs = await getjobs();
+    console.log(jobs);
 
-    if (tasks.length) {
+    if (jobs.length) {
         const div = document.getElementById('tasks');
         const loadingDiv = div.childNodes[1];
 
