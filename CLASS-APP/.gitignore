@@ -2,3 +2,9 @@
  node_modules/
 **/node_modules
 **node_modules
+server.key
+server.cert
+/server.key
+/server.cert
+**/server.key
+**/server.cert
